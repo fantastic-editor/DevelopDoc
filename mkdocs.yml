@@ -1,0 +1,37 @@
+site_name: OnlineEdit 开发文档
+repo_url: https://github.com/FlyCloud-Campus/DevelopDoc
+repo_name: OnlineSchool/DevelopDoc
+copyright: Copyright &copy; 2023 - 2024 锋楪 All Rights Reserved. 版权所有
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: green
+      accent: light blue
+      toggle:
+        icon: material/brightness-auto
+        name: 切换亮色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 依照系统进行模式切换
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.footer
+plugins:
+  - search
