@@ -17,8 +17,8 @@
 
 我们协作开发采用 git 进行，使用 github 平台进行项目管理与敏捷开发管理。
 
-- 后端项目：https://github.com/fantastic-editor/FantasticEditorApi
-- 前端项目：https://github.com/fantastic-editor/FantasticEditorWeb
+- 后端项目：[https://github.com/fantastic-editor/FantasticEditorApi](https://github.com/fantastic-editor/FantasticEditorApi)
+- 前端项目：[https://github.com/fantastic-editor/FantasticEditorWeb](https://github.com/fantastic-editor/FantasticEditorWeb)
 
 ## 人员配置
 
@@ -28,19 +28,19 @@
 
 ## 环境搭建
 
-后端开发者前期需要准备 `JDK-17`, `Kotlin-1.9.22`, `Maven`, `PostgreSQL`, `Redis` 相应开发环境，统一使用 Jetbrains Intellij IDEA Ultimate 2023.3.X / Jetbrains Intellij IDEA Ultimate 2024.1.X，`Docker` 环境选择配置，建议使用 `Docker` 部署 `PostgreSQL`、`Redis` 等服务。
+后端开发者前期需要准备 `JDK-17`, `Kotlin-1.9.22`, `Maven`, `PostgreSQL`, `Redis` 相应开发环境，统一使用 Jetbrains Intellij IDEA Ultimate 2023.3.X / [Jetbrains Intellij IDEA Ultimate 2024.1.X](https://www.jetbrains.com.cn/idea/)，`Docker` 环境选择配置，建议使用 `Docker` 部署 `PostgreSQL`、`Redis` 等服务。
 
-前端开发者前期需要准备 `Node.js`, `Vue CLI` 相应开发环境，统一使用 Jetbrains WebStorm 2023.3.X / Jetbrains WebStorm 2023.4.X ，无需额外配置 `Docker` 环境。
+前端开发者前期需要准备 `Node.js`, `Vue CLI` 相应开发环境，统一使用 Jetbrains WebStorm 2023.3.X / [Jetbrains WebStorm 2024.1.X](https://www.jetbrains.com.cn/webstorm/) ，无需额外配置 `Docker` 环境。
 
 使用 Jetbrains Intellij IDEA Ultimate 为了保证开发者的开发规范请务必安装如下插件：
 
-1. Alibaba Java Coding Guidelines
-2. CheckStyle-IDEA
-3. Git Commit Template Check
+1. [Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/14109-alibaba-java-coding-guidelines-xenoamess-tpm-)
+2. [CheckStyle-IDEA](https://plugins.jetbrains.com/plugin/1065-checkstyle-idea)
+3. [Git Commit Template Check](https://plugins.jetbrains.com/plugin/14822-git-commit-template-check)
 
 使用 Jetbrains WebStorm 为了保证开发者开发规范请务必安装如下插件：
 
-1. Git Commit Template Check
+1. [Git Commit Template Check](https://plugins.jetbrains.com/plugin/14822-git-commit-template-check)
 
 ## 框架配置
 
