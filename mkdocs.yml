@@ -1,7 +1,7 @@
-site_name: 智汇文编文档库
+site_name: 妙笔智编文档库
 site_url: https://editor.doc.x-lf.cn/
 repo_url: https://github.com/fantastic-editor/DevelopDoc
-repo_name: OnlineSchool/DevelopDoc
+repo_name: FantasticEditor/DevelopDoc
 copyright: Copyright &copy; 2023 - 2024 锋楪 All Rights Reserved. 版权所有
 theme:
   logo: favicon.png
