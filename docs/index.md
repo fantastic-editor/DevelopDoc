@@ -47,3 +47,15 @@
 ### 附加功能：智能信息可视化
 1. **在功能上：**根据内容及可视化类型，结合大语言模型，进行包括但不限于表格生成、思维导图生成和数据可视化生成等功能。
 2. **在交互形式上：**选手可以自由发挥，加入动态可视化效果、画布二次编辑等符合用户体验需求的创意点。
+
+## 文档贡献
+
+### 贡献数据
+
+![Alt](https://repobeats.axiom.co/api/embed/4964155a5b8edc81cb8845be646c3712d15b2358.svg "Repobeats analytics image")
+
+### 贡献者
+
+<a href="https://github.com/fantastic-editor/DevelopDoc/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fantastic-editor/DevelopDoc" />
+</a>
