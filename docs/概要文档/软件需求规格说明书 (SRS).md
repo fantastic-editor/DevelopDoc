@@ -8,7 +8,7 @@
 
 - <span style="color:red;">[必须]</span> 表示绝对需要的功能或标准。
 - <span style="color:green;">[推荐]</span> 表示非必须但建议实现的功能或标准。
-- <span style="color:yellow;">[可选]</span> 表示可以增加的附加功能。
+- <span style="color:orange;">[可选]</span> 表示可以增加的附加功能。
 
 ### 1.3 预期的读者和阅读建议
 
@@ -78,8 +78,16 @@
 
 #### 3.1.4 信息可视化
 
-- <span style="color:yellow;">[可选]</span> 自动生成与文本内容相关的数据可视化图表。
-- <span style="color:yellow;">[可选]</span> 提供交互式的可视化编辑工具。
+- <span style="color:orange;">[可选]</span> 自动生成与文本内容相关的数据可视化图表。
+- <span style="color:orange;">[可选]</span> 提供交互式的可视化编辑工具。
+
+#### 3.1.5 文档管理
+
+- <span style="color:red;">[必须]</span> 对所有的文档进行管理。
+- <span style="color:green;">[推荐]</span> 文档智能分类。
+- <span style="color:orange;">[可选]</span> 违规文档的自动下线。
+
+#### 3.1.6 
 
 ### 3.2 外部接口需求
 
