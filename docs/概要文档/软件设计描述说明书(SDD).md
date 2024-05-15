@@ -35,7 +35,7 @@
 - 前端：Vue 3、Vue Router、Vuex
 - 后端：SpringBoot 3、Spring Security等
 - 数据库：PostgreSQL
-- 中间件：Redis（用于缓存）、RabbitMQ（用于消息队列）
+- 中间件：Redis（用于缓存）
 - 云服务：使用云服务提供OCR和语音到文本转换API
 
 ## 3. 细节设计
