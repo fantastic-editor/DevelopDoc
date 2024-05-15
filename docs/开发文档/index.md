@@ -47,8 +47,35 @@
 ### 后端
 
 1. 使用主体框架 `SpringBoot-Kotlin 3.2.5 Maven`
-   1. SDK配置
-   2. 架构打包
+      1. SDK配置
+         - [5.1.1] [redis.clients: jedis](https://mvnrepository.com/artifact/redis.clients/jedis/5.1.1)
+         - [2.10.1] [com.google.code.gson: gson](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1)
+         - [5.2.5] [org.apache.poi: poi](https://mvnrepository.com/artifact/org.apache.poi/poi/5.2.5)
+         - [5.2.5] [org.apache.poi: poi-ooxml](https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml/5.2.5)
+         - [4.5.14] [org.apache.httpcomponents: httpclient](https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient/4.5.14)
+         - [3.5.6] [com.baomidou: mybatis-plus-spring-boot3-starter](https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-spring-boot3-starter/3.5.6)
+         - [3.5.16] [org.mybatis: mybatis](https://mvnrepository.com/artifact/org.mybatis/mybatis/3.5.16)
+         - [latest] [org.springframework.boot: spring-boot-starter-data-redis](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-redis)
+         - [latest] [org.springframework.boot: spring-boot-starter-jdbc](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jdbc)
+         - [latest] [org.springframework.boot: spring-boot-starter-security](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security)
+         - [latest] [org.springframework.boot: spring-boot-starter-thymeleaf](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf)
+         - [latest] [org.springframework.boot: spring-boot-starter-validation](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation)
+         - [latest] [org.springframework.boot: spring-boot-starter-web](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web)
+         - [latest] [org.springframework.boot: spring-boot-starter-mail](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail)
+         - [latest] [org.springframework.boot: spring-boot-starter-aop](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop)
+         - [latest] [org.thymeleaf.extras: thymeleaf-extras-springsecurity6](https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-springsecurity6)
+         - [latest] [org.postgresql: postgresql](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+         - [latest] [org.projectlombok: lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)
+         - [latest] [org.springframework.boot: spring-boot-starter-test](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test)
+         - [latest] [org.springframework.security: spring-security-test](https://mvnrepository.com/artifact/org.springframework.security/spring-security-test)
+         - [latest] [eu.bitwalker: UserAgentUtils](https://mvnrepository.com/artifact/eu.bitwalker/UserAgentUtils)
+         - [latest] [com.fasterxml.jackson.module: jackson-module-kotlin](https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-kotlin)
+         - [latest] [org.jetbrains.kotlin: kotlin-reflect](https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect)
+         - [latest] [org.jetbrains.kotlin: kotlin-stdlib](https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib)
+      2. 架构打包
+         - [dev] 开发架构
+         - [test] 测试架构
+         - [pord] 部署架构
 2. 数据库采用 `PostgreSQL alpine3.19` 具体数据库设计逻辑见后
 3. 缓存数据库采用 `Redis 7.2` 具体数据库样式逻辑见后
 

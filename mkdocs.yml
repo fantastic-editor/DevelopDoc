@@ -4,28 +4,25 @@ repo_url: https://github.com/fantastic-editor/DevelopDoc
 repo_name: FantasticEditor/DevelopDoc
 copyright: Copyright &copy; 2023 - 2024 锋楪 All Rights Reserved. 版权所有
 theme:
-  logo: favicon.png
-  favicon: favicon.png
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
   name: material
   language: zh
   palette:
     - media: "(prefers-color-scheme)"
-      primary: green
-      accent: cyan
       toggle:
         icon: material/brightness-auto
         name: 切换亮色模式
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      primary: teal
-      accent: cyan
+      primary: blue
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: 切换暗色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: cyan
+      primary: blue grey
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: 依照系统进行模式切换
@@ -33,8 +30,12 @@ theme:
     - search.suggest
     - search.highlight
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tabs
     - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - navigation.top
 plugins:
   - search
